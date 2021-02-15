@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2_db
+  jpa:
+    show_sql: false
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
